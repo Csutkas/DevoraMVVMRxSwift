@@ -24,7 +24,6 @@
 		C7CEAF6225CBED97003AF080 /* AlbumService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF6125CBED97003AF080 /* AlbumService.swift */; };
 		C7CEAF6725CBF40F003AF080 /* AlbumsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF6625CBF40F003AF080 /* AlbumsListViewModel.swift */; };
 		C7CEAF6C25CBF5B3003AF080 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF6B25CBF5B3003AF080 /* AlbumViewModel.swift */; };
-		C7CEAF7125CC065B003AF080 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF7025CC065B003AF080 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +70,6 @@
 		C7CEAF6125CBED97003AF080 /* AlbumService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumService.swift; sourceTree = "<group>"; };
 		C7CEAF6625CBF40F003AF080 /* AlbumsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListViewModel.swift; sourceTree = "<group>"; };
 		C7CEAF6B25CBF5B3003AF080 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
-		C7CEAF7025CC065B003AF080 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D9427A6370327D81F7286614 /* Pods_DevoraMVVMRxSwift_DevoraMVVMRxSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevoraMVVMRxSwift_DevoraMVVMRxSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71DE99633C38C0D1795BAEA /* Pods_DevoraMVVMRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevoraMVVMRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F0B9FBB4E7F9A748D214AB /* Pods-DevoraMVVMRxSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevoraMVVMRxSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-DevoraMVVMRxSwiftTests/Pods-DevoraMVVMRxSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -167,7 +165,6 @@
 			isa = PBXGroup;
 			children = (
 				C7CEAF1725CBD747003AF080 /* ViewController.swift */,
-				C7CEAF7025CC065B003AF080 /* DetailViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -468,7 +465,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7CEAF7125CC065B003AF080 /* DetailViewController.swift in Sources */,
 				C7CEAF5325CBD9C7003AF080 /* AppCoordinator.swift in Sources */,
 				C7CEAF1825CBD747003AF080 /* ViewController.swift in Sources */,
 				C7CEAF6725CBF40F003AF080 /* AlbumsListViewModel.swift in Sources */,

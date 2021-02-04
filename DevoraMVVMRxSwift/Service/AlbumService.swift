@@ -25,12 +25,11 @@ class AlbumService: AlbumServiceProtocol {
             // get the path
             guard let data = data else {
                 observer.onError(NSError(domain: "", code: -1, userInfo: nil))
-                return //Disposables.create { }
+                return
             }
             
             // read the path
             do{
-                //let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 let albums = try JSONDecoder().decode([Album].self, from: data)
                 
                 observer.onNext(albums)
