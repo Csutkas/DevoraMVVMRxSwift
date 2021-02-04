@@ -1,0 +1,6 @@
+framework module Pods_DevoraMVVMRxSwift {
+  umbrella header "Pods-DevoraMVVMRxSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

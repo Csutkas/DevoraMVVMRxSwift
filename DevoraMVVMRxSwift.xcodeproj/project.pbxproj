@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1934FCBC121D81B874298C06 /* Pods_DevoraMVVMRxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F591CDD72AB8E6ACF89FB7 /* Pods_DevoraMVVMRxSwiftTests.framework */; };
+		8E3E1C28EFE1A925F8D2DCCF /* Pods_DevoraMVVMRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71DE99633C38C0D1795BAEA /* Pods_DevoraMVVMRxSwift.framework */; };
+		A23112B144283DAB5EFF36E6 /* Pods_DevoraMVVMRxSwift_DevoraMVVMRxSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9427A6370327D81F7286614 /* Pods_DevoraMVVMRxSwift_DevoraMVVMRxSwiftUITests.framework */; };
 		C7CEAF1425CBD747003AF080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF1325CBD747003AF080 /* AppDelegate.swift */; };
 		C7CEAF1625CBD747003AF080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF1525CBD747003AF080 /* SceneDelegate.swift */; };
 		C7CEAF1825CBD747003AF080 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF1725CBD747003AF080 /* ViewController.swift */; };
@@ -15,6 +18,13 @@
 		C7CEAF2025CBD748003AF080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CEAF1E25CBD748003AF080 /* LaunchScreen.storyboard */; };
 		C7CEAF2B25CBD748003AF080 /* DevoraMVVMRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF2A25CBD748003AF080 /* DevoraMVVMRxSwiftTests.swift */; };
 		C7CEAF3625CBD748003AF080 /* DevoraMVVMRxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF3525CBD748003AF080 /* DevoraMVVMRxSwiftUITests.swift */; };
+		C7CEAF5325CBD9C7003AF080 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF5225CBD9C7003AF080 /* AppCoordinator.swift */; };
+		C7CEAF5825CBEC30003AF080 /* albums.json in Resources */ = {isa = PBXBuildFile; fileRef = C7CEAF5725CBEC30003AF080 /* albums.json */; };
+		C7CEAF5D25CBECA8003AF080 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF5C25CBECA8003AF080 /* Album.swift */; };
+		C7CEAF6225CBED97003AF080 /* AlbumService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF6125CBED97003AF080 /* AlbumService.swift */; };
+		C7CEAF6725CBF40F003AF080 /* AlbumsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF6625CBF40F003AF080 /* AlbumsListViewModel.swift */; };
+		C7CEAF6C25CBF5B3003AF080 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF6B25CBF5B3003AF080 /* AlbumViewModel.swift */; };
+		C7CEAF7125CC065B003AF080 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CEAF7025CC065B003AF080 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26F591CDD72AB8E6ACF89FB7 /* Pods_DevoraMVVMRxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevoraMVVMRxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CACB90B47056A29B9AF620F /* Pods-DevoraMVVMRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevoraMVVMRxSwift.release.xcconfig"; path = "Target Support Files/Pods-DevoraMVVMRxSwift/Pods-DevoraMVVMRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		64F066EE9A303429F01889A2 /* Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests/Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		95AC79A64DDDC27F205CF34E /* Pods-DevoraMVVMRxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevoraMVVMRxSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-DevoraMVVMRxSwiftTests/Pods-DevoraMVVMRxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3310BD54274BD028EE8BCC0 /* Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests/Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9561F27FB336606EB1B5F6F /* Pods-DevoraMVVMRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevoraMVVMRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-DevoraMVVMRxSwift/Pods-DevoraMVVMRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		C7CEAF1025CBD747003AF080 /* DevoraMVVMRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevoraMVVMRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CEAF1325CBD747003AF080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7CEAF1525CBD747003AF080 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,16 @@
 		C7CEAF3125CBD748003AF080 /* DevoraMVVMRxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevoraMVVMRxSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CEAF3525CBD748003AF080 /* DevoraMVVMRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoraMVVMRxSwiftUITests.swift; sourceTree = "<group>"; };
 		C7CEAF3725CBD748003AF080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CEAF5225CBD9C7003AF080 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		C7CEAF5725CBEC30003AF080 /* albums.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = albums.json; sourceTree = "<group>"; };
+		C7CEAF5C25CBECA8003AF080 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		C7CEAF6125CBED97003AF080 /* AlbumService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumService.swift; sourceTree = "<group>"; };
+		C7CEAF6625CBF40F003AF080 /* AlbumsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListViewModel.swift; sourceTree = "<group>"; };
+		C7CEAF6B25CBF5B3003AF080 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		C7CEAF7025CC065B003AF080 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D9427A6370327D81F7286614 /* Pods_DevoraMVVMRxSwift_DevoraMVVMRxSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevoraMVVMRxSwift_DevoraMVVMRxSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71DE99633C38C0D1795BAEA /* Pods_DevoraMVVMRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevoraMVVMRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F0B9FBB4E7F9A748D214AB /* Pods-DevoraMVVMRxSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevoraMVVMRxSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-DevoraMVVMRxSwiftTests/Pods-DevoraMVVMRxSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E3E1C28EFE1A925F8D2DCCF /* Pods_DevoraMVVMRxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1934FCBC121D81B874298C06 /* Pods_DevoraMVVMRxSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23112B144283DAB5EFF36E6 /* Pods_DevoraMVVMRxSwift_DevoraMVVMRxSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +112,8 @@
 				C7CEAF2925CBD748003AF080 /* DevoraMVVMRxSwiftTests */,
 				C7CEAF3425CBD748003AF080 /* DevoraMVVMRxSwiftUITests */,
 				C7CEAF1125CBD747003AF080 /* Products */,
+				FED5A5FA8174800FEBB656DA /* Pods */,
+				DAEDC646A12FF3D52C8BC17B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +130,13 @@
 		C7CEAF1225CBD747003AF080 /* DevoraMVVMRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				C7CEAF8525CC06B0003AF080 /* Model */,
+				C7CEAF8125CC0699003AF080 /* Service */,
+				C7CEAF7D25CC068A003AF080 /* Coordinator */,
+				C7CEAF7925CC0675003AF080 /* ViewModel */,
+				C7CEAF7525CC0666003AF080 /* View */,
 				C7CEAF1325CBD747003AF080 /* AppDelegate.swift */,
 				C7CEAF1525CBD747003AF080 /* SceneDelegate.swift */,
-				C7CEAF1725CBD747003AF080 /* ViewController.swift */,
 				C7CEAF1925CBD747003AF080 /* Main.storyboard */,
 				C7CEAF1C25CBD748003AF080 /* Assets.xcassets */,
 				C7CEAF1E25CBD748003AF080 /* LaunchScreen.storyboard */,
@@ -128,6 +163,72 @@
 			path = DevoraMVVMRxSwiftUITests;
 			sourceTree = "<group>";
 		};
+		C7CEAF7525CC0666003AF080 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7CEAF1725CBD747003AF080 /* ViewController.swift */,
+				C7CEAF7025CC065B003AF080 /* DetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7CEAF7925CC0675003AF080 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C7CEAF6625CBF40F003AF080 /* AlbumsListViewModel.swift */,
+				C7CEAF6B25CBF5B3003AF080 /* AlbumViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C7CEAF7D25CC068A003AF080 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				C7CEAF5225CBD9C7003AF080 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		C7CEAF8125CC0699003AF080 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C7CEAF6125CBED97003AF080 /* AlbumService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C7CEAF8525CC06B0003AF080 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7CEAF5725CBEC30003AF080 /* albums.json */,
+				C7CEAF5C25CBECA8003AF080 /* Album.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAEDC646A12FF3D52C8BC17B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E71DE99633C38C0D1795BAEA /* Pods_DevoraMVVMRxSwift.framework */,
+				D9427A6370327D81F7286614 /* Pods_DevoraMVVMRxSwift_DevoraMVVMRxSwiftUITests.framework */,
+				26F591CDD72AB8E6ACF89FB7 /* Pods_DevoraMVVMRxSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FED5A5FA8174800FEBB656DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9561F27FB336606EB1B5F6F /* Pods-DevoraMVVMRxSwift.debug.xcconfig */,
+				3CACB90B47056A29B9AF620F /* Pods-DevoraMVVMRxSwift.release.xcconfig */,
+				64F066EE9A303429F01889A2 /* Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests.debug.xcconfig */,
+				A3310BD54274BD028EE8BCC0 /* Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests.release.xcconfig */,
+				95AC79A64DDDC27F205CF34E /* Pods-DevoraMVVMRxSwiftTests.debug.xcconfig */,
+				F2F0B9FBB4E7F9A748D214AB /* Pods-DevoraMVVMRxSwiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7CEAF3A25CBD748003AF080 /* Build configuration list for PBXNativeTarget "DevoraMVVMRxSwift" */;
 			buildPhases = (
+				7C83A87B8E90DD78E530DFB5 /* [CP] Check Pods Manifest.lock */,
 				C7CEAF0C25CBD747003AF080 /* Sources */,
 				C7CEAF0D25CBD747003AF080 /* Frameworks */,
 				C7CEAF0E25CBD747003AF080 /* Resources */,
+				29DF4581569D64B9FF258011 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7CEAF3D25CBD748003AF080 /* Build configuration list for PBXNativeTarget "DevoraMVVMRxSwiftTests" */;
 			buildPhases = (
+				1C68B9097D93C4C8E6F7DE2D /* [CP] Check Pods Manifest.lock */,
 				C7CEAF2225CBD748003AF080 /* Sources */,
 				C7CEAF2325CBD748003AF080 /* Frameworks */,
 				C7CEAF2425CBD748003AF080 /* Resources */,
@@ -170,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7CEAF4025CBD748003AF080 /* Build configuration list for PBXNativeTarget "DevoraMVVMRxSwiftUITests" */;
 			buildPhases = (
+				A593A732C787079B179729F8 /* [CP] Check Pods Manifest.lock */,
 				C7CEAF2D25CBD748003AF080 /* Sources */,
 				C7CEAF2E25CBD748003AF080 /* Frameworks */,
 				C7CEAF2F25CBD748003AF080 /* Resources */,
+				515A84D51469ED7D891F2FC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +340,7 @@
 				C7CEAF2025CBD748003AF080 /* LaunchScreen.storyboard in Resources */,
 				C7CEAF1D25CBD748003AF080 /* Assets.xcassets in Resources */,
 				C7CEAF1B25CBD747003AF080 /* Main.storyboard in Resources */,
+				C7CEAF5825CBEC30003AF080 /* albums.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +360,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C68B9097D93C4C8E6F7DE2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DevoraMVVMRxSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29DF4581569D64B9FF258011 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevoraMVVMRxSwift/Pods-DevoraMVVMRxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevoraMVVMRxSwift/Pods-DevoraMVVMRxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DevoraMVVMRxSwift/Pods-DevoraMVVMRxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		515A84D51469ED7D891F2FC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests/Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests/Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests/Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C83A87B8E90DD78E530DFB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DevoraMVVMRxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A593A732C787079B179729F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7CEAF0C25CBD747003AF080 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7CEAF7125CC065B003AF080 /* DetailViewController.swift in Sources */,
+				C7CEAF5325CBD9C7003AF080 /* AppCoordinator.swift in Sources */,
 				C7CEAF1825CBD747003AF080 /* ViewController.swift in Sources */,
+				C7CEAF6725CBF40F003AF080 /* AlbumsListViewModel.swift in Sources */,
 				C7CEAF1425CBD747003AF080 /* AppDelegate.swift in Sources */,
+				C7CEAF6C25CBF5B3003AF080 /* AlbumViewModel.swift in Sources */,
 				C7CEAF1625CBD747003AF080 /* SceneDelegate.swift in Sources */,
+				C7CEAF5D25CBECA8003AF080 /* Album.swift in Sources */,
+				C7CEAF6225CBED97003AF080 /* AlbumService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +649,7 @@
 		};
 		C7CEAF3B25CBD748003AF080 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9561F27FB336606EB1B5F6F /* Pods-DevoraMVVMRxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +669,7 @@
 		};
 		C7CEAF3C25CBD748003AF080 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CACB90B47056A29B9AF620F /* Pods-DevoraMVVMRxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +689,7 @@
 		};
 		C7CEAF3E25CBD748003AF080 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95AC79A64DDDC27F205CF34E /* Pods-DevoraMVVMRxSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +712,7 @@
 		};
 		C7CEAF3F25CBD748003AF080 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F0B9FBB4E7F9A748D214AB /* Pods-DevoraMVVMRxSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +735,7 @@
 		};
 		C7CEAF4125CBD748003AF080 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F066EE9A303429F01889A2 /* Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +756,7 @@
 		};
 		C7CEAF4225CBD748003AF080 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3310BD54274BD028EE8BCC0 /* Pods-DevoraMVVMRxSwift-DevoraMVVMRxSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
